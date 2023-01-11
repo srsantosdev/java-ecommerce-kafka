@@ -3,7 +3,7 @@ package pro.samuelramos.ecommerce;
 import java.math.BigDecimal;
 
 public class Order {
-    private final String orderId;
+    private final String  orderId;
     private final BigDecimal amount;
     private final String email;
 
@@ -22,6 +22,6 @@ public class Order {
     }
 
     public String getEmail() {
-        return email;
+        return this.email;
     }
 }

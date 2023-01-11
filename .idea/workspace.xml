@@ -5,29 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02cc5ef2-144f-44e6-be7a-595eb5e5bd80" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/common-kafka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-kafka/src/main/java/pro/samuelramos/ecommerce/ConsumerFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-kafka/src/main/java/pro/samuelramos/ecommerce/GsonDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-kafka/src/main/java/pro/samuelramos/ecommerce/GsonSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-kafka/src/main/java/pro/samuelramos/ecommerce/KafkaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-email/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-email/src/main/java/pro/samuelramos/ecommerce/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-email/src/main/java/pro/samuelramos/ecommerce/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-frauddetector/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-frauddetector/src/main/java/pro/samuelramos/ecommerce/FraudDetectorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-frauddetector/src/main/java/pro/samuelramos/ecommerce/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-log/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-log/src/main/java/pro/samuelramos/ecommerce/LogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-new-order/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-new-order/src/main/java/pro/samuelramos/ecommerce/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-new-order/src/main/java/pro/samuelramos/ecommerce/NewOrderMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-new-order/src/main/java/pro/samuelramos/ecommerce/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-users/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-users/src/main/java/pro/samuelramos/ecommerce/CreateUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-users/src/main/java/pro/samuelramos/ecommerce/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-kafka/src/main/java/pro/samuelramos/ecommerce/ConsumerFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/pro/samuelramos/ecommerce/ConsumerFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-kafka/src/main/java/pro/samuelramos/ecommerce/KafkaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/pro/samuelramos/ecommerce/KafkaService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pro/samuelramos/ecommerce/EmailService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pro/samuelramos/ecommerce/FraudDetectorService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pro/samuelramos/ecommerce/LogService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pro/samuelramos/ecommerce/NewOrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/pro/samuelramos/ecommerce/KafkaDispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-frauddetector/src/main/java/pro/samuelramos/ecommerce/FraudDetectorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-frauddetector/src/main/java/pro/samuelramos/ecommerce/FraudDetectorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-frauddetector/src/main/java/pro/samuelramos/ecommerce/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-frauddetector/src/main/java/pro/samuelramos/ecommerce/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-new-order/src/main/java/pro/samuelramos/ecommerce/NewOrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-new-order/src/main/java/pro/samuelramos/ecommerce/NewOrderMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-new-order/src/main/java/pro/samuelramos/ecommerce/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-new-order/src/main/java/pro/samuelramos/ecommerce/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,18 +44,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_directory_selection": "/Users/samuelramos/workspaces/studies/java/ecommerce/service-email/src/main/java/pro/samuelramos/ecommerce",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/samuelramos/workspaces/studies/java/ecommerce/service-email/src/main/java/pro/samuelramos/ecommerce&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="pro.samuelramos.ecommerce" />
@@ -80,6 +68,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.pro.samuelramos.ecommerce.NewOrderMain">
+    <configuration name="CreateUserService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pro.samuelramos.ecommerce.CreateUserService" />
+      <module name="service-users" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pro.samuelramos.ecommerce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="pro.samuelramos.ecommerce.EmailService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pro.samuelramos.ecommerce.EmailService" />
       <module name="service-email" />
@@ -135,9 +136,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.pro.samuelramos.ecommerce.NewOrderMain" />
-        <item itemvalue="Application.pro.samuelramos.ecommerce.LogService" />
+        <item itemvalue="Application.CreateUserService" />
         <item itemvalue="Application.pro.samuelramos.ecommerce.FraudDetectorService" />
         <item itemvalue="Application.pro.samuelramos.ecommerce.EmailService" />
+        <item itemvalue="Application.pro.samuelramos.ecommerce.LogService" />
       </list>
     </recent_temporary>
   </component>
